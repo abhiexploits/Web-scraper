@@ -22,8 +22,8 @@ A professional website scraping tool that downloads complete websites including 
 ### Quick Installation
 ```bash
 # Clone the repositor
-git clone https://github.com/abhiexploits/Web-scraper.gi
-cd Web-scrap
+git clone https://github.com/abhiexploits/Web-scraper.git
+cd Web-scraper
 # Install dependencies
 pip install -r requirements.txt
 
