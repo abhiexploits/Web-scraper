@@ -1,13 +1,4 @@
-README.md
-
-```markdown
 # 🌐 Web Scraper - Complete Website Downloader
-
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Termux-orange.svg)](https://termux.com/)
-[![Author](https://img.shields.io/badge/Author-abhiexploits-red.svg)](https://github.com/abhiexploits)
-
 A professional website scraping tool that downloads complete websites including HTML, CSS, JavaScript, images, and fonts for offline viewing. Perfect for web developers, security researchers, and digital archivists.
 
 ## ✨ Features
@@ -30,10 +21,9 @@ A professional website scraping tool that downloads complete websites including 
 
 ### Quick Installation
 ```bash
-# Clone the repository
-git clone https://github.com/abhiexploits/Web-scraper.git
-cd Web-scraper
-
+# Clone the repositor
+git clone https://github.com/abhiexploits/Web-scraper.gi
+cd Web-scrap
 # Install dependencies
 pip install -r requirements.txt
 
@@ -49,7 +39,7 @@ Only three packages required:
 pip install requests beautifulsoup4 lxml
 ```
 
-🚀 Quick Start
+## 🚀 Quick Start
 
 Basic Usage
 
@@ -74,7 +64,7 @@ python scraper.py https://example.com --delay 0.5
 python scraper.py https://example.com -v
 ```
 
-⚙️ Command Line Options
+## ⚙️ Command Line Options
 
 Option Description Default
 url Target website URL (required) -
@@ -84,7 +74,7 @@ url Target website URL (required) -
 --delay Delay between requests in seconds 1.0
 -v, --verbose Enable verbose output False
 
-📁 Output Structure
+## 📁 Output Structure
 
 ```
 scraped_website_20240124_153045/
@@ -116,7 +106,7 @@ scraped_website_20240124_153045/
     └── scraping_report.txt
 ```
 
-📋 Usage Examples
+## 📋 Usage Examples
 
 Example 1: Basic Website Download
 
@@ -150,7 +140,7 @@ python scraper.py https://docs.python.org -o python_docs -d 2
 
 Perfect for creating offline documentation
 
-🛠️ Technical Details
+## 🛠️ Technical Details
 
 How It Works
 
@@ -169,7 +159,7 @@ Features for Developers
 · Content Processing: Intelligent MIME type detection
 · File Management: Safe filename generation from URLs
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -194,7 +184,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-⚠️ Important Notes
+## ⚠️ Important Notes
 
 Legal Considerations
 
@@ -214,7 +204,7 @@ Limitations
 · Dynamic content loaded via AJAX won't be captured
 · Some resources may be blocked by CORS policies
 
-🔧 Troubleshooting
+## 🔧 Troubleshooting
 
 Common Issues
 
@@ -260,24 +250,19 @@ python scraper.py https://example.com -v
 cat scraped_website/logs/scraper.log
 ```
 
-📊 Performance Tips
+## 📊 Performance Tips
 
 1. Adjust Threads: Use -t option based on your network speed
 2. Optimize Depth: Start with depth 1, then increase as needed
 3. Use Delay: For large sites, use --delay to avoid bans
 4. Monitor Memory: Large sites may require significant disk space
-
-📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 · Built with Python's powerful standard library
 · Inspired by web archiving and digital preservation tools
 · Thanks to all contributors and users
 
-📞 Support
+## 📞 Support
 
 For issues, questions, or suggestions:
 
@@ -285,7 +270,7 @@ For issues, questions, or suggestions:
 2. Create a new issue with detailed description
 3. Include error messages and steps to reproduce
 
-📈 Future Enhancements
+## 📈 Future Enhancements
 
 · Support for sitemap.xml parsing
 · Browser automation integration
