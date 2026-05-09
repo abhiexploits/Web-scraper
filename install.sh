@@ -32,11 +32,11 @@ fi
 
 echo "[+] Python3 is installed"
 
-# Install required packages
+# Install required packages to run the tool (library like:- bs4 lxml requests
 echo "[*] Installing required Python packages..."
 pip3 install requests beautifulsoup4 lxml
 
-# Make scraper executable
+# Make scraper executable (giving scrapper executable permission in linux , termux)
 echo "[*] Setting up the scraper..."
 chmod +x scraper.py
 
